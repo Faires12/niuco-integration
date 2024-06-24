@@ -1,0 +1,29 @@
+{
+  "name": "integracao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "test": "jest",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/types": "^29.6.3",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.8",
+    "husky": "^9.0.11",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.5.2"
+  }
+}
