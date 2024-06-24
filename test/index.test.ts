@@ -10,6 +10,6 @@ describe("TestService", () => {
   test("Should return 5", () => {
     const value = testService.retornar();
 
-    expect(value).toBe(1);
+    expect(value).toBe(2);
   });
 });

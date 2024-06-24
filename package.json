@@ -7,9 +7,15 @@
     "test": "test"
   },
   "scripts": {
+    "start": "tsc",
     "dev": "nodemon src/index.ts",
     "test": "jest",
     "prepare": "husky"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
   },
   "keywords": [],
   "author": "",
