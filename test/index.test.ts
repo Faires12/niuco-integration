@@ -1,15 +1,15 @@
-import { TesteService } from "../src";
+import { TesteService } from '../src'
 
-let testService: TesteService;
+let testService: TesteService
 
-describe("TestService", () => {
+describe('TestService', () => {
   beforeAll(() => {
-    testService = new TesteService();
-  });
+    testService = new TesteService()
+  })
 
-  test("Should return 5", () => {
-    const value = testService.retornar();
+  test('Should return 5', () => {
+    const value = testService.retornar()
 
-    expect(value).toBe(5);
-  });
-});
+    expect(value).toBe(5)
+  })
+})
